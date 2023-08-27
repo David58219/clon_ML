@@ -1,11 +1,19 @@
 /* Estilos del Header */
 header {
     background-color: #FFF159;
+    display: flex;
+    justify-content: center;
+    font-family: Open, sans-serif;
+    font-size: 14px; 
+}
+.content_header {
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
     grid-template-rows: 50px 50px;
-  
+    width: 1200px;
+    height: 100px;
 }
+
 
 .logo {
     width: 162px;
@@ -14,4 +22,85 @@ header {
 img {
     width: 100%;
     height: 100%;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 40px;
+    margin-top: .5rem;
+}
+.button_search {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.input_busqueda {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.codigo_postal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-top: .5rem;
+}
+.span1 {
+    font-size: 11px;
+    font-weight: 50;
+}
+.nav_categorias {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    padding-top: .5rem;
+    padding-right: 10rem;
+    
+}
+
+.nav_cuenta {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    padding-top: .5rem;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #555555;
+}
+a:hover {
+    color: #000000;
+}
+
+/* Estilos del carrusel */
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 1600px;
+    height: 340px;
 }
