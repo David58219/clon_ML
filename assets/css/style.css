@@ -1,3 +1,12 @@
+/* Estilos generalews */
+body {
+    background-color: #EBEBEB;
+}
+
+
+
+
+
 /* Estilos del Header */
 header {
     background-color: #FFF159;
@@ -35,7 +44,6 @@ img {
     width: 40px;
     height: 40px;
     border: none;
-    border-radius: 5px;
     background-color: #ffffff;
     cursor: pointer;
 }
@@ -43,7 +51,6 @@ img {
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 5px;
     padding: 0 1rem;
     font-size: 1rem;
 }
@@ -104,3 +111,77 @@ a:hover {
     width: 1600px;
     height: 340px;
 }
+
+/* Estilo de seccion de pagos Citibanamex */
+.pagos_citi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-family: Open, sans-serif;
+    font-size: 16px; 
+}
+.content_pagos_citi {
+    width: 1190px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    background-color: #ffffff;
+}
+.pagos_mp{
+   border-right: 1px solid #EBEBEB;
+   border-left: 4px solid #3483FA;
+   height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+
+.mp{
+    font-size: 12px;
+    color: #555555;
+    padding-top: 0%;
+    
+}
+.acomodo_texto_mp{
+    margin: .9rem;
+}
+.promos_banco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 2rem;
+}
+.promos_banco a {
+    color: #5697FA;
+    font-size: 14px;
+}
+.promos_banco a:hover {
+    color: #555555;
+}
+.logo_bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_bank img{
+    width: 110px;
+    height: 35px;
+}
+.mas_medios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mas_medios a {
+    color: #5697FA;
+    font-size: 14px;
+}
+.mas_medios a:hover {
+    color: #555555;
+}
+
+/* Estilos de productos */
