@@ -188,7 +188,7 @@ a:hover {
 .caja_subtitulo{
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
     
 }
 .Subtitulo {
@@ -217,12 +217,12 @@ a:hover {
 .caja_contenido {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 .seccion1 {
     max-width:  1185px;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 .producto {
     max-width: 220px;
@@ -288,4 +288,43 @@ a:hover {
     margin: .2rem;
 }
 
+/* Estilos de anuncios suscribete a Meli+  */
 
+.anuncio_Meli {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.contenedor_Meli {
+    max-width:  1185px;
+    height: 345px;
+   
+}
+.anuncio_Meli1{
+    width: 1185px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #5A238D, #AA1192);
+    font-family: Open, sans-serif;
+    color: #ffffff;
+}
+
+.Meli_1_text {
+    font-size: 1.4em;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+.Meli_2_text {
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    border-left: #EBEBEB solid 3px;
+    padding-left: .5rem;
+}
+.Meli_3_text {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    font-weight: 100;
+}
