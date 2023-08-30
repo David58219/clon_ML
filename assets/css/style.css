@@ -184,4 +184,108 @@ a:hover {
     color: #555555;
 }
 
-/* Estilos de productos */
+/* Estilos de subtitulos */
+.caja_subtitulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    
+}
+.Subtitulo {
+    width:  1185px;
+    display: flex;
+    justify-content: start;  
+}
+.letra_subtitulo {
+    font-family: Open, sans-serif;
+    font-size: 25px;
+    font-weight: 40;
+    color: #0c0c0c;
+    margin-right: 1rem;
+}
+.Subtitulo a {
+    font-family: Open, sans-serif;
+    color: #5697FA;
+    font-size: 16px;
+    margin-top: .5rem;
+    font-weight: 500;
+}
+.Subtitulo a:hover {
+    color: #555555;
+}
+/* Estilos de productos Ofertas */
+.caja_contenido {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.seccion1 {
+    max-width:  1185px;
+    display: flex;
+    gap: 2rem;
+}
+.producto {
+    max-width: 220px;
+    height: 360px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 6px;
+    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.producto > img {
+    width: 100%;
+    max-height: 210px;
+    object-fit: contain;
+}
+
+.informacion {
+    max-height: 220px;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+.precio {
+    font-family: Open, sans-serif;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+.descuento{
+    font-size: .6em;
+    color: #00A650;
+    margin-left: 0.5em;
+}
+.precio_meses {
+    font-family: Open, sans-serif;
+    font-size: .8em;
+    color: #555555;
+    margin: .3rem;
+}
+.precio_meses_sin_intereses {
+    font-family: Open, sans-serif;
+    font-size: .8em;
+    color: #00A650;
+    margin: .3rem;
+    font-weight: 550;
+}
+.precio-envio {
+    font-family: Open, sans-serif;
+    font-size: .8em;
+    font-weight: 600;
+    color: #00A650;
+    margin: .2rem;
+}
+.full {
+    font-weight: 800;
+}
+.descripcion{
+    font-family: Open, sans-serif;
+    font-size: .8em;
+    color: #555555;
+    margin: .2rem;
+}
+
+
