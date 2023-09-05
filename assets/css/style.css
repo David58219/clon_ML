@@ -226,7 +226,7 @@ a:hover {
 }
 .producto {
     max-width: 220px;
-    height: 360px;
+    max-height: 360px;
     display: flex;
     flex-flow: column;
     border-radius: 6px;
@@ -298,6 +298,7 @@ a:hover {
 .contenedor_Meli {
     max-width:  1185px;
     height: 345px;
+    background-color: #ffffff;
    
 }
 .anuncio_Meli1{
@@ -327,4 +328,135 @@ a:hover {
     font-size: 1.2rem;
     margin-right: 1.5rem;
     font-weight: 100;
+}
+.anuncio_Meli2 {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: #EBEBEB solid 1px;
+}
+.anuncio_Meli2_2 {
+    font-family: Open, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    padding-top: 2rem;
+    font-weight: 100;
+    
+}
+
+.nuncio_Meli2_1 img {
+    border: 1px solid #efefef;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 72px;
+    min-height: 72px;
+    min-width: 72px;
+    overflow: hidden;
+    width: 72px;
+    margin-right: 1rem;
+}
+.nuncio_Meli2_1 {
+    background-color: #ffffff;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Open, sans-serif;
+    font-size: .9rem;
+    
+}
+
+.nuncio_Meli2_1_1 {
+    width: 300px;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nuncio_Meli2_1_2 {
+    width: 300px;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nuncio_Meli2_1_3 {
+    width: 300px;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .anuncio_Meli3 {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-bottom: 1rem;
+ }
+ .button_susribirse {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0E72ED;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-family: Open, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+ }
+.button_susribirse:hover {
+    background-color: #0E72ED;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Estilos de sección de publicidad de contenidos */
+.seccion_streaming {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.caja_streams{
+    width:  1185px;
+    height: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tarjeta_publicidad {
+    background-image: url(../imagenes/Dis_star_publi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 470px;
+    height: 310px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.contenido_publi {
+    display: flex;
+    flex-direction: row;
+}
+.logo_publicidad {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+.texto_publicidad {
+    display: flex;
+    flex-direction: column;
+    font-family: Open, sans-serif;
+    justify-content: center;
+    color: #ffffff;
 }
