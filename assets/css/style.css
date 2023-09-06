@@ -428,15 +428,45 @@ a:hover {
     width:  1185px;
     height: 345px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+    
 }
-.tarjeta_publicidad {
+.tarjeta_publicidad1 {
     background-image: url(../imagenes/Dis_star_publi.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 470px;
-    height: 310px;
+    width: 23rem;
+    height: 15.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.tarjeta_publicidad2 {
+    background-image: url(../imagenes/hbo_publi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 23rem;
+    height: 15.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.tarjeta_publicidad3 {
+    background-image: url(../imagenes/paramount_publi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 23rem;
+    height: 15.5rem;
+    border-radius: 10px;
     display: flex;
     justify-content: start;
     align-items: end;
@@ -453,10 +483,59 @@ a:hover {
     height: 80px;
     margin-right: 1rem;
 }
+.logo_publicidad img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 .texto_publicidad {
     display: flex;
     flex-direction: column;
     font-family: Open, sans-serif;
     justify-content: center;
     color: #ffffff;
+    margin-left: .5rem;
+}
+.texto1_streaming {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+/* publicidad TCL */
+.publicidad_TCL {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.caja_tcl {
+    width:  1185px;
+    height: 345px;
+}
+.tarjeta_publicidad_TCL1 {
+    background-image: url(../imagenes/publicidad_TCL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 1185px;
+    height: 345px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.tarjeta_publicidad_TCL2 {
+    background-image: url(../imagenes/publicidad_TCL2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 1185px;
+    height: 345px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    
 }
