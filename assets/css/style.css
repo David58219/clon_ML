@@ -553,3 +553,69 @@ a:hover {
     color: #ffffff;
     margin-bottom: 1.5rem;
 } 
+
+
+/* Estilos de sección de descuentos  */
+
+.seccion_descuentos {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 8rem;
+}
+.caja_descuentos {
+    width:  1185px;
+    height: 345px;
+    display: flex;
+    flex-direction: row;
+    }
+.tarjeta_descuentos1 {
+    background-color: #ffffff;
+    max-width: 36rem;
+    height: 14rem;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    border-radius: 5px;
+}
+.caja_texto_descuentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 2rem;
+    font-family: Open, sans-serif;
+}
+.texto_descuentos1 {
+    font-size: .7em;
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+.texto_descuentos2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+.imagen_descuentos{
+    background-image: url("../imagenes/publi_descuento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+}
+.button_ver_mas {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #0E72ED;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-family: Open, sans-serif;
+    font-size: .9rem;
+    font-weight: 200;
+    color: #ffffff;
+}
