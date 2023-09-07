@@ -408,8 +408,8 @@ a:hover {
     margin-top: .5rem;
     margin-bottom: 1rem;
     font-family: Open, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: .9rem;
+    font-weight: 700;
     color: #ffffff;
  }
 .button_susribirse:hover {
@@ -509,33 +509,47 @@ a:hover {
 }
 .caja_tcl {
     width:  1185px;
-    height: 345px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
 }
 .tarjeta_publicidad_TCL1 {
-    background-image: url(../imagenes/publicidad_TCL.jpg);
+    background-image: url(../imagenes/publi_TCL.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 1185px;
-    height: 345px;
-    border-radius: 10px;
     display: flex;
-    justify-content: start;
-    align-items: end;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    
+    align-items: center;
 }
 .tarjeta_publicidad_TCL2 {
-    background-image: url(../imagenes/publicidad_TCL2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 1185px;
-    height: 345px;
-    border-radius: 10px;
+    background-color: #D72229;
+    font-family: Open, sans-serif;
     display: flex;
-    justify-content: start;
-    align-items: end;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4rem;
+    padding-top: 3rem;
 }
+.logo_tcl {
+    width: 120px;
+    height: 95px;
+    margin-left: 4rem;
+}
+.texto_tcl1 {
+    font-size: .8em;
+    font-weight: 90;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.texto_tcl2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+.tarjeta_publicidad_TCL2 a {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+} 
